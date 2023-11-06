@@ -1,0 +1,19 @@
+userName: 
+accessKey: 
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Edge
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sonoma
+    browserName: Chrome
+    browserVersion: latest
+parallelsPerPlatform: 1
+browserstackLocal: false
+buildName: Regression
+projectName: Specflow
+debug: true
+networkLogs: true
+consoleLogs: verbose
+browserstackAutomation: false
